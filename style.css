@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+
+ 
+.navbar{
+    height: 6rem;
+    font-family:'Baloo 2';
+    font-size:1.3rem;
+    background-color: #072c51;
+    position:ab;
+    top: 0;
+
+}
+.dropdown:hover .dropdown-menu{
+    display: bloc;;
+
+}
+.carousel-item{
+    height: 50rem;
+
+
+}
+@media (max-width: 1920px) {
+    .container-1 {
+      background-attachment: scroll;
+    }
+}
+@media (min-width:320px) {
+    .container-1 {
+      background-attachment: scroll;
+    }
+}
+
+
+.coro-para1{
+    font-family:'Baloo 2';
+    font-size:1.6rem;
+    font-weight: 600;
+
+}
+.container{
+    position: absolute;
+    bottom: 15rem;
+    left: 10rem;
+}
+
+.section-2{
+    font-family:'Baloo 2';
+    background-color: #072c51;
+    height: 100vh;
+  
+}
+
+     .numbers{
+    padding-top: 8rem;
+}
+
+.num-crunch{
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+.num-crunch1{
+    font-size: 10rem;
+    font-weight: 600;
+}
+.num-crunch2{
+    font-size: 10rem;
+    font-weight: 600;
+}
+.num-crunch3{
+    font-size: 5rem;
+    font-weight:600;
+}  
+
+.rect1{
+ color: #a6fbe8;
+ padding-left: 2rem;
+}
+.rect2{
+    color: #8cdd83;
+}
+.rect3{
+    padding-left: 2rem;
+    color: #f36f64;
+}
+.rect4{
+    color: #f0a6ff;
+}
+
+.sub-head,.card-head1{
+    font-family:'Baloo 2';
+    font-size:4.8rem; 
+    font-weight: 600;
+}
+.card-head1{
+    padding-top: 5rem;
+    font-size: 4rem;
+}
+#sub-head{
+    color: yellow;
+}
+.color-white{
+    color: white;
+}
+.section3{
+    height: 120vh;
+}
+#img1{
+   width: 39.8rem;
+   height: 45.5rem;
+}
+#img2{
+   width: 38.8rem;
+   height: 47.5rem;
+}
+.section-4{
+    height: 20vh;
+    background-color: #072c51;
+    text-align: center;
+}
+.section-8{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #072c51;
+}
+
+
+.flip-box{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+.flip-box-front,.flip-box-back{
+background-size:cover;
+background-position: center;
+min-height: 475px;
+border-radius: 15px;
+transform: 0.7s;
+transition: 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+backface-visibility:hidden;
+}
+.flip-box-front{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    transition: .7s;
+
+}
+.flip-box:hover,
+.flip-box-fron{
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+    transition: .7s;
+}
+.flip-box-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+ 
+    transform-style: preserve-3d;
+}
+.flip-box:hover,
+.flip-box-back{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.contents{
+    position: absolute;
+    top: 0;
+} 
+.para1{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8rem;
+
+}
+.images{
+    padding-top: 2rem;
+}
+.box-item{
+ padding-top: 4rem;
+}
+.location{
+    font-family:'Baloo 2';
+    font-size:4rem;
+    line-height: 100%;
+
+}
+#locationimg{
+    width: 80rem;
+
+}
+.card-imgs{
+    width: 14.25rem;
+    height: 22.5rem;
+}
+/* .worldimg{
+    width: 94rem;
+    height: 50rem;
+}  */
+.footer1{
+    background-color: #072c51;
+}
